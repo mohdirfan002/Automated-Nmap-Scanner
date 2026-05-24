@@ -1,0 +1,18 @@
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-05-23 13:23 +0530
+Nmap scan report for mapmywalk.com (108.158.46.65)
+Host is up (0.015s latency).
+Other addresses for mapmywalk.com (not scanned): 2600:9000:237a:d000:5:a672:9b40:93a1 2600:9000:237a:a800:5:a672:9b40:93a1 2600:9000:237a:a200:5:a672:9b40:93a1 2600:9000:237a:4000:5:a672:9b40:93a1 2600:9000:237a:400:5:a672:9b40:93a1 2600:9000:237a:cc00:5:a672:9b40:93a1 2600:9000:237a:a400:5:a672:9b40:93a1 2600:9000:237a:f200:5:a672:9b40:93a1 108.158.46.9 108.158.46.10 108.158.46.23
+rDNS record for 108.158.46.65: server-108-158-46-65.bom78.r.cloudfront.net
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: bridge|VoIP adapter|general purpose
+Running (JUST GUESSING): Oracle Virtualbox (98%), Slirp (98%), AT&T embedded (94%), QEMU (93%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:danny_gasparovski:slirp cpe:/a:qemu:qemu
+Aggressive OS guesses: Oracle Virtualbox Slirp NAT bridge (98%), AT&T BGW210 voice gateway (94%), QEMU user mode network gateway (93%)
+No exact OS matches for host (test conditions non-ideal).
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 8.79 seconds
